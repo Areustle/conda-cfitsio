@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd heacore/cfitsio
+cd cfitsio
 
 ./configure --prefix=$PREFIX
 

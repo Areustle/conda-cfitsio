@@ -1,20 +1,20 @@
 package:
    name: cfitsio
-   version: "5.3.42"
+   version: "3.410"
 
 source:
-  fn: heasoft-6.21.tar
-  url: https://heasarc.nasa.gov/cgi-bin/Tools/tarit/tarit.pl?mode=download&arch=src&src_pc_linux_sci=Y&src_other_specify=&general=futils
+  fn: cfitsio_latest.tar.gz
+  url: ftp://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio_latest.tar.gz
 
 build:
   number: 0
 
 requirements:
- 
- build: 
-   
+
+ build:
+
  run:
-   
+
 about:
   home: https://heasarc.gsfc.nasa.gov/fitsio/
   license: GPL2
